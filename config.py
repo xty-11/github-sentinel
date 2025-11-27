@@ -2,7 +2,6 @@ import json
 import os
 from typing import Dict, Optional
 
-#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
 class ConfigManager:
     """配置管理器：加载、验证、提供配置信息"""
     def __init__(self, config_path: Optional[str] = None):
